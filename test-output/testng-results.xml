@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-22T13:37:41 GMT+06:00" name="Default suite" finished-at="2025-02-22T13:37:54 GMT+06:00" duration-ms="12008">
+  <suite started-at="2025-02-23T13:43:14 GMT+06:00" name="Default suite" finished-at="2025-02-23T13:43:35 GMT+06:00" duration-ms="20426">
     <groups>
     </groups>
-    <test started-at="2025-02-22T13:37:41 GMT+06:00" name="Default test" finished-at="2025-02-22T13:37:54 GMT+06:00" duration-ms="12008">
-      <class name="Amit.AutoSuggestionInSearch">
-        <test-method signature="autoSearch()[pri:0, instance:Amit.AutoSuggestionInSearch@e4487af]" started-at="2025-02-22T13:37:42 GMT+06:00" name="autoSearch" finished-at="2025-02-22T13:37:54 GMT+06:00" duration-ms="11987" status="PASS">
+    <test started-at="2025-02-23T13:43:14 GMT+06:00" name="Default test" finished-at="2025-02-23T13:43:35 GMT+06:00" duration-ms="20426">
+      <class name="Amit.HoverOverAndClick">
+        <test-method signature="HoverOver()[pri:0, instance:Amit.HoverOverAndClick@687e99d8]" started-at="2025-02-23T13:43:14 GMT+06:00" name="HoverOver" finished-at="2025-02-23T13:43:35 GMT+06:00" duration-ms="20405" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- autoSearch -->
-      </class> <!-- Amit.AutoSuggestionInSearch -->
+        </test-method> <!-- HoverOver -->
+      </class> <!-- Amit.HoverOverAndClick -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

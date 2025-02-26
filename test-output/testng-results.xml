@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-23T13:43:14 GMT+06:00" name="Default suite" finished-at="2025-02-23T13:43:35 GMT+06:00" duration-ms="20426">
+  <suite started-at="2025-02-27T01:16:20 GMT+06:00" name="Default suite" finished-at="2025-02-27T01:16:32 GMT+06:00" duration-ms="12426">
     <groups>
     </groups>
-    <test started-at="2025-02-23T13:43:14 GMT+06:00" name="Default test" finished-at="2025-02-23T13:43:35 GMT+06:00" duration-ms="20426">
-      <class name="Amit.HoverOverAndClick">
-        <test-method signature="HoverOver()[pri:0, instance:Amit.HoverOverAndClick@687e99d8]" started-at="2025-02-23T13:43:14 GMT+06:00" name="HoverOver" finished-at="2025-02-23T13:43:35 GMT+06:00" duration-ms="20405" status="PASS">
+    <test started-at="2025-02-27T01:16:20 GMT+06:00" name="Default test" finished-at="2025-02-27T01:16:32 GMT+06:00" duration-ms="12426">
+      <class name="Amit.DropdownSelectClass">
+        <test-method signature="dropdown()[pri:0, instance:Amit.DropdownSelectClass@e4487af]" started-at="2025-02-27T01:16:20 GMT+06:00" name="dropdown" finished-at="2025-02-27T01:16:32 GMT+06:00" duration-ms="12404" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HoverOver -->
-      </class> <!-- Amit.HoverOverAndClick -->
+        </test-method> <!-- dropdown -->
+      </class> <!-- Amit.DropdownSelectClass -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Amit.AutoSuggestionInSearch">
+      <class name="Amit.DropdownUsingSelectClass">
         <methods>
-          <include name="autoSearch"/>
+          <include name="dropdownUsingSelect"/>
         </methods>
-      </class> <!-- Amit.AutoSuggestionInSearch -->
+      </class> <!-- Amit.DropdownUsingSelectClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

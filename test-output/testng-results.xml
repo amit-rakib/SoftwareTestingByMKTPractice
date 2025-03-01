@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-02-27T01:16:20 GMT+06:00" name="Default suite" finished-at="2025-02-27T01:16:32 GMT+06:00" duration-ms="12426">
+  <suite started-at="2025-03-01T15:13:12 GMT+06:00" name="Default suite" finished-at="2025-03-01T15:13:22 GMT+06:00" duration-ms="9470">
     <groups>
     </groups>
-    <test started-at="2025-02-27T01:16:20 GMT+06:00" name="Default test" finished-at="2025-02-27T01:16:32 GMT+06:00" duration-ms="12426">
-      <class name="Amit.DropdownSelectClass">
-        <test-method signature="dropdown()[pri:0, instance:Amit.DropdownSelectClass@e4487af]" started-at="2025-02-27T01:16:20 GMT+06:00" name="dropdown" finished-at="2025-02-27T01:16:32 GMT+06:00" duration-ms="12404" status="PASS">
+    <test started-at="2025-03-01T15:13:12 GMT+06:00" name="Default test" finished-at="2025-03-01T15:13:22 GMT+06:00" duration-ms="9470">
+      <class name="Amit.HeadLessMood1">
+        <test-method signature="headlessMood()[pri:0, instance:Amit.HeadLessMood1@687e99d8]" started-at="2025-03-01T15:13:12 GMT+06:00" name="headlessMood" finished-at="2025-03-01T15:13:22 GMT+06:00" duration-ms="9450" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- dropdown -->
-      </class> <!-- Amit.DropdownSelectClass -->
+        </test-method> <!-- headlessMood -->
+      </class> <!-- Amit.HeadLessMood1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

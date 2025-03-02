@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,7 +103,22 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Default_suite" title="Amit.HeadLessMood1" class="method navigator-link" hash-for-method="headlessMood">headlessMood</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Default_suite" title="Amit.loginTest" class="method navigator-link" hash-for-method="multiUserLoging(user2, user123)">multiUserLoging(user2, user123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Amit.loginTest" class="method navigator-link" hash-for-method="multiUserLoging(student, Password123)">multiUserLoging(student, Password123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Amit.loginTest" class="method navigator-link" hash-for-method="multiUserLoging(user1, 123456)">multiUserLoging(user1, 123456)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Default_suite" title="Amit.loginTest" class="method navigator-link" hash-for-method="multiUserLoging(user3, hello123)">multiUserLoging(user3, hello123)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -121,14 +136,39 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">Amit.HeadLessMood1</span>
+              <span class="class-name">Amit.loginTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="headlessMood">
-                  </a> <!-- headlessMood -->
-                  <span class="method-name">headlessMood</span>
+                  <a name="multiUserLoging(user2, user123)">
+                  </a> <!-- multiUserLoging(user2, user123) -->
+                  <span class="method-name">multiUserLoging</span>
+                  <span class="parameters">(user2,user123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiUserLoging(student, Password123)">
+                  </a> <!-- multiUserLoging(student, Password123) -->
+                  <span class="method-name">multiUserLoging</span>
+                  <span class="parameters">(student,Password123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiUserLoging(user1, 123456)">
+                  </a> <!-- multiUserLoging(user1, 123456) -->
+                  <span class="method-name">multiUserLoging</span>
+                  <span class="parameters">(user1,123456)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="multiUserLoging(user3, hello123)">
+                  </a> <!-- multiUserLoging(user3, hello123) -->
+                  <span class="method-name">multiUserLoging</span>
+                  <span class="parameters">(user3,hello123)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -136,7 +176,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">/private/var/folders/83/29syyspx2_dfxh52lb7pyk600000gn/T/testng-eclipse-951097098/testng-customsuite.xml</span>
+            <span class="header-content">/private/var/folders/83/29syyspx2_dfxh52lb7pyk600000gn/T/testng-eclipse-1208256108/testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -145,7 +185,7 @@
 &lt;suite name=&quot;Default suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Default test&quot; verbose=&quot;2&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;Amit.HeadLessMood1&quot;/&gt;
+      &lt;class name=&quot;Amit.loginTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -185,16 +225,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'headlessMood')
-data.setCell(0, 2, 'Amit.HeadLessMood1')
-data.setCell(0, 3, 9450);
+data.setCell(0, 1, 'multiUserLoging')
+data.setCell(0, 2, 'Amit.loginTest')
+data.setCell(0, 3, 11033);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'multiUserLoging')
+data.setCell(1, 2, 'Amit.loginTest')
+data.setCell(1, 3, 7868);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'multiUserLoging')
+data.setCell(2, 2, 'Amit.loginTest')
+data.setCell(2, 3, 7778);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'multiUserLoging')
+data.setCell(3, 2, 'Amit.loginTest')
+data.setCell(3, 3, 7619);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 9 seconds</span>
+              <span class="suite-total-time">Total running time: 34 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -220,10 +272,22 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">Amit.HeadLessMood1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">Amit.loginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">headlessMood</span>
+                <span class="method-name">multiUserLoging(student, Password123)</span>
                 <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multiUserLoging(user1, 123456)</span>
+                <span class="method-start">11035 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multiUserLoging(user2, user123)</span>
+                <span class="method-start">18904 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">multiUserLoging(user3, hello123)</span>
+                <span class="method-start">26684 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

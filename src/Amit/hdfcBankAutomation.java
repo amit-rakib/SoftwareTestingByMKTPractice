@@ -82,7 +82,7 @@ public class hdfcBankAutomation {
 		
 		
 
-		//driver.close();
+		driver.close();
 
 	}
 

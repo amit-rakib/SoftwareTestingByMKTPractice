@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Amit.hdfcBankAutomation">
+      <class name="Amit.SearchInGoogle">
         <methods>
-          <include name="hdfcBankTest"/>
+          <include name="searchG"/>
         </methods>
-      </class> <!-- Amit.hdfcBankAutomation -->
+      </class> <!-- Amit.SearchInGoogle -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

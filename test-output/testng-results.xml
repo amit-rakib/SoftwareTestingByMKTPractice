@@ -1,83 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-12T00:47:21 GMT+06:00" name="Default suite" finished-at="2025-03-12T00:47:28 GMT+06:00" duration-ms="6475">
+  <suite started-at="2025-03-17T01:03:33 GMT+06:00" name="Suite" finished-at="2025-03-17T01:03:33 GMT+06:00" duration-ms="71">
     <groups>
+      <group name="unity">
+        <method signature="GroupingConcept.test4()[pri:0, instance:Mocks.GroupingConcept@2e377400]" name="test4" class="Mocks.GroupingConcept"/>
+      </group> <!-- unity -->
+      <group name="regression">
+        <method signature="GroupingConcept.test3()[pri:0, instance:Mocks.GroupingConcept@44a7bfbc]" name="test3" class="Mocks.GroupingConcept"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="GroupingConcept.test1()[pri:0, instance:Mocks.GroupingConcept@2e377400]" name="test1" class="Mocks.GroupingConcept"/>
+        <method signature="GroupingConcept.test2()[pri:0, instance:Mocks.GroupingConcept@2e377400]" name="test2" class="Mocks.GroupingConcept"/>
+        <method signature="GroupingConcept.test4()[pri:0, instance:Mocks.GroupingConcept@2e377400]" name="test4" class="Mocks.GroupingConcept"/>
+      </group> <!-- smoke -->
+      <group name="sanity">
+        <method signature="GroupingConcept.test2()[pri:0, instance:Mocks.GroupingConcept@2e377400]" name="test2" class="Mocks.GroupingConcept"/>
+        <method signature="GroupingConcept.test3()[pri:0, instance:Mocks.GroupingConcept@44a7bfbc]" name="test3" class="Mocks.GroupingConcept"/>
+      </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-03-12T00:47:21 GMT+06:00" name="Default test" finished-at="2025-03-12T00:47:28 GMT+06:00" duration-ms="6475">
-      <class name="Amit.SearchInGoogle">
-        <test-method signature="searchG()[pri:0, instance:Amit.SearchInGoogle@e4487af]" started-at="2025-03-12T00:47:21 GMT+06:00" name="searchG" finished-at="2025-03-12T00:47:28 GMT+06:00" duration-ms="6447" status="FAIL">
-          <exception class="org.openqa.selenium.StaleElementReferenceException">
-            <message>
-              <![CDATA[stale element reference: stale element not found
-  (Session info: chrome=133.0.6943.142)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'Amit.local', ip: 'fe80:0:0:0:1cdc:76b5:b3b4:8f78%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4d167d6f52dff4ea410fb84414b67214, getElementText {id=f.4AFF63D17EC2CF91B5CD430F18DB4C07.d.AD902E80D81B0173112FD8569EE5D97C.e.29}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: /var/folders/83/29syyspx2_d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55286}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55286/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (4d167d6f52dff4ea410fb84414b67214)] -> css selector: .sbct.PZPZlf]
-Session ID: 4d167d6f52dff4ea410fb84414b67214]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
-  (Session info: chrome=133.0.6943.142)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
-Build info: version: '4.3.0', revision: 'a4995e2c09*'
-System info: host: 'Amit.local', ip: 'fe80:0:0:0:1cdc:76b5:b3b4:8f78%en0', os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '15.2', java.version: '23.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [4d167d6f52dff4ea410fb84414b67214, getElementText {id=f.4AFF63D17EC2CF91B5CD430F18DB4C07.d.AD902E80D81B0173112FD8569EE5D97C.e.29}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 133.0.6943.142, chrome: {chromedriverVersion: 133.0.6943.141 (2a5d6da0d61..., userDataDir: /var/folders/83/29syyspx2_d...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55286}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:55286/devtoo..., se:cdpVersion: 133.0.6943.142, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on MAC (4d167d6f52dff4ea410fb84414b67214)] -> css selector: .sbct.PZPZlf]
-Session ID: 4d167d6f52dff4ea410fb84414b67214
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:185)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:134)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:51)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:519)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
-at Amit.SearchInGoogle.searchG(SearchInGoogle.java:38)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:741)
-at org.testng.TestRunner.run(TestRunner.java:616)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
+    <test started-at="2025-03-17T01:03:33 GMT+06:00" name="Test1" finished-at="2025-03-17T01:03:33 GMT+06:00" duration-ms="32">
+      <class name="Mocks.GroupingConcept">
+        <test-method signature="test1()[pri:0, instance:Mocks.GroupingConcept@2e377400]" started-at="2025-03-17T01:03:33 GMT+06:00" name="test1" finished-at="2025-03-17T01:03:33 GMT+06:00" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- searchG -->
-      </class> <!-- Amit.SearchInGoogle -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:0, instance:Mocks.GroupingConcept@2e377400]" started-at="2025-03-17T01:03:33 GMT+06:00" name="test2" finished-at="2025-03-17T01:03:33 GMT+06:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test4()[pri:0, instance:Mocks.GroupingConcept@2e377400]" started-at="2025-03-17T01:03:33 GMT+06:00" name="test4" finished-at="2025-03-17T01:03:33 GMT+06:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+      </class> <!-- Mocks.GroupingConcept -->
+    </test> <!-- Test1 -->
+    <test started-at="2025-03-17T01:03:33 GMT+06:00" name="Test2" finished-at="2025-03-17T01:03:33 GMT+06:00" duration-ms="3">
+      <class name="Mocks.GroupingConcept">
+        <test-method signature="test3()[pri:0, instance:Mocks.GroupingConcept@44a7bfbc]" started-at="2025-03-17T01:03:33 GMT+06:00" name="test3" finished-at="2025-03-17T01:03:33 GMT+06:00" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- Mocks.GroupingConcept -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
 </testng-results>

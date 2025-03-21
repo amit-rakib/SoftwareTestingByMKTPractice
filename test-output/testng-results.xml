@@ -1,48 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="4" total="8" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-17T01:03:33 GMT+06:00" name="Suite" finished-at="2025-03-17T01:03:33 GMT+06:00" duration-ms="71">
+  <suite started-at="2025-03-19T03:46:56 GMT+06:00" name="Default suite" finished-at="2025-03-19T03:47:04 GMT+06:00" duration-ms="8084">
     <groups>
-      <group name="unity">
-        <method signature="GroupingConcept.test4()[pri:0, instance:Mocks.GroupingConcept@2e377400]" name="test4" class="Mocks.GroupingConcept"/>
-      </group> <!-- unity -->
-      <group name="regression">
-        <method signature="GroupingConcept.test3()[pri:0, instance:Mocks.GroupingConcept@44a7bfbc]" name="test3" class="Mocks.GroupingConcept"/>
-      </group> <!-- regression -->
-      <group name="smoke">
-        <method signature="GroupingConcept.test1()[pri:0, instance:Mocks.GroupingConcept@2e377400]" name="test1" class="Mocks.GroupingConcept"/>
-        <method signature="GroupingConcept.test2()[pri:0, instance:Mocks.GroupingConcept@2e377400]" name="test2" class="Mocks.GroupingConcept"/>
-        <method signature="GroupingConcept.test4()[pri:0, instance:Mocks.GroupingConcept@2e377400]" name="test4" class="Mocks.GroupingConcept"/>
-      </group> <!-- smoke -->
-      <group name="sanity">
-        <method signature="GroupingConcept.test2()[pri:0, instance:Mocks.GroupingConcept@2e377400]" name="test2" class="Mocks.GroupingConcept"/>
-        <method signature="GroupingConcept.test3()[pri:0, instance:Mocks.GroupingConcept@44a7bfbc]" name="test3" class="Mocks.GroupingConcept"/>
-      </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-03-17T01:03:33 GMT+06:00" name="Test1" finished-at="2025-03-17T01:03:33 GMT+06:00" duration-ms="32">
-      <class name="Mocks.GroupingConcept">
-        <test-method signature="test1()[pri:0, instance:Mocks.GroupingConcept@2e377400]" started-at="2025-03-17T01:03:33 GMT+06:00" name="test1" finished-at="2025-03-17T01:03:33 GMT+06:00" duration-ms="6" status="PASS">
+    <test started-at="2025-03-19T03:46:56 GMT+06:00" name="Default test" finished-at="2025-03-19T03:47:04 GMT+06:00" duration-ms="8084">
+      <class name="Amit.takeScreenshot">
+        <test-method signature="screenshot()[pri:0, instance:Amit.takeScreenshot@e4487af]" started-at="2025-03-19T03:46:56 GMT+06:00" name="screenshot" finished-at="2025-03-19T03:47:04 GMT+06:00" duration-ms="8062" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method signature="test2()[pri:0, instance:Mocks.GroupingConcept@2e377400]" started-at="2025-03-17T01:03:33 GMT+06:00" name="test2" finished-at="2025-03-17T01:03:33 GMT+06:00" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method signature="test4()[pri:0, instance:Mocks.GroupingConcept@2e377400]" started-at="2025-03-17T01:03:33 GMT+06:00" name="test4" finished-at="2025-03-17T01:03:33 GMT+06:00" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test4 -->
-      </class> <!-- Mocks.GroupingConcept -->
-    </test> <!-- Test1 -->
-    <test started-at="2025-03-17T01:03:33 GMT+06:00" name="Test2" finished-at="2025-03-17T01:03:33 GMT+06:00" duration-ms="3">
-      <class name="Mocks.GroupingConcept">
-        <test-method signature="test3()[pri:0, instance:Mocks.GroupingConcept@44a7bfbc]" started-at="2025-03-17T01:03:33 GMT+06:00" name="test3" finished-at="2025-03-17T01:03:33 GMT+06:00" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-      </class> <!-- Mocks.GroupingConcept -->
-    </test> <!-- Test2 -->
-  </suite> <!-- Suite -->
+        </test-method> <!-- screenshot -->
+      </class> <!-- Amit.takeScreenshot -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
